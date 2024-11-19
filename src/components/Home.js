@@ -46,12 +46,14 @@ function Home() {
                 </tbody>
             </Table>
 
-            <div className='d-grid gap-2 mt-4 w-auto'>
-                <Link to='/create'>
-                    <Button variant='success' size='lg'>
-                        Create New User
-                    </Button>
-                </Link>
+            <div className='d-flex justify-content-center'>
+                <div className='d-grid gap-2 mt-4 w-20'>
+                    <Link to='/create'>
+                        <Button variant='success' size='lg'>
+                            Create New User
+                        </Button>
+                    </Link>
+                </div>
             </div>
         </div>
     );
